@@ -1,0 +1,6 @@
+[gd_resource type="Character" format=3 uid="uid://nicoe_char_01"]
+
+[resource]
+name = "Nicoe"
+current_trust = 0.0
+has_met = false

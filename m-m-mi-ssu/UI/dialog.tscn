@@ -1,0 +1,59 @@
+[gd_scene format=3 uid="uid://b4avskgeotepe"]
+
+[ext_resource type="Texture2D" uid="uid://cryxmt88nfery" path="res://icon.svg" id="1_f8kg0"]
+[ext_resource type="Script" uid="uid://dialog_script_01" path="res://UI/dialog.gd" id="2_dlgscr"]
+
+[node name="Node2D" type="Node2D" unique_id=1920365468]
+script = ExtResource("2_dlgscr")
+
+[node name="Name" type="Label" parent="." unique_id=1035318969]
+offset_left = 82.0
+offset_top = 330.0
+offset_right = 158.0
+offset_bottom = 353.0
+text = "FRANCCIS"
+
+[node name="Panel" type="Panel" parent="." unique_id=1004762868]
+offset_left = 37.0
+offset_top = 364.0
+offset_right = 1124.0
+offset_bottom = 628.0
+
+[node name="Dialog" type="Label" parent="." unique_id=617326214]
+offset_left = 66.0
+offset_top = 378.0
+offset_right = 142.0
+offset_bottom = 401.0
+text = "FRANCCIS"
+
+[node name="Speaker1" type="Sprite2D" parent="." unique_id=2095098626]
+z_index = -1
+position = Vector2(892.99994, 242)
+scale = Vector2(2.6171875, 2.7421875)
+texture = ExtResource("1_f8kg0")
+
+[node name="Speaker2" type="Sprite2D" parent="." unique_id=1695997363]
+z_index = -1
+position = Vector2(281.00006, 243)
+scale = Vector2(2.6171875, 2.7421875)
+texture = ExtResource("1_f8kg0")
+
+[node name="Background" type="Sprite2D" parent="." unique_id=428875595]
+z_index = -3
+position = Vector2(577.5, 321)
+scale = Vector2(9.0234375, 5.046875)
+texture = ExtResource("1_f8kg0")
+
+[node name="OptionButton1" type="Button" parent="." unique_id=1453609374]
+offset_left = 957.0
+offset_top = 314.0
+offset_right = 1028.0
+offset_bottom = 345.0
+text = "Option2"
+
+[node name="OptionButton2" type="Button" parent="." unique_id=2098509778]
+offset_left = 945.0
+offset_top = 275.0
+offset_right = 1016.0
+offset_bottom = 306.0
+text = "Option1"

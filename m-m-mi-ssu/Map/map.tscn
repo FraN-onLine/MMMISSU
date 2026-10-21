@@ -1,0 +1,106 @@
+[gd_scene format=3 uid="uid://dgsme725xuv7t"]
+
+[ext_resource type="Script" uid="uid://bdiota4d8aohu" path="res://Map/map.gd" id="1_mapscr"]
+
+[node name="Map" type="Control" unique_id=1920365469]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 800.0
+offset_bottom = 600.0
+script = ExtResource("1_mapscr")
+
+[node name="AdminBldgButton" type="Button" parent="." unique_id=1035318970]
+layout_mode = 0
+offset_left = 454.0
+offset_top = 177.0
+offset_right = 551.0
+offset_bottom = 237.0
+text = "Admin Bldg"
+
+[node name="LibraryButton" type="Button" parent="." unique_id=629018470]
+layout_mode = 0
+offset_left = 346.0
+offset_top = 58.0
+offset_right = 443.0
+offset_bottom = 118.0
+text = "Libarary"
+
+[node name="CCISButton" type="Button" parent="." unique_id=1921985639]
+layout_mode = 0
+offset_left = 143.0
+offset_top = 267.0
+offset_right = 240.0
+offset_bottom = 327.0
+text = "CCIS"
+
+[node name="CASButton" type="Button" parent="." unique_id=788647513]
+layout_mode = 0
+offset_left = 261.0
+offset_top = 266.0
+offset_right = 358.0
+offset_bottom = 326.0
+text = "CAS"
+
+[node name="COEButton" type="Button" parent="." unique_id=259667140]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 263.0
+offset_right = 115.0
+offset_bottom = 323.0
+text = "COE"
+
+[node name="CAFSDCVMButton" type="Button" parent="." unique_id=455284292]
+layout_mode = 0
+offset_left = 590.0
+offset_top = 267.0
+offset_right = 687.0
+offset_bottom = 327.0
+text = "CAFSD-CVM"
+
+[node name="TeatroButton" type="Button" parent="." unique_id=197493848]
+layout_mode = 0
+offset_left = 724.0
+offset_top = 207.0
+offset_right = 822.0
+offset_bottom = 267.0
+text = "Teatro"
+
+[node name="CoveredCourtButton" type="Button" parent="." unique_id=964903213]
+layout_mode = 0
+offset_left = 825.0
+offset_top = 315.0
+offset_right = 923.0
+offset_bottom = 375.0
+text = "CC"
+
+[node name="COLButton" type="Button" parent="." unique_id=2034826236]
+layout_mode = 0
+offset_left = 936.0
+offset_top = 384.0
+offset_right = 1034.0
+offset_bottom = 444.0
+text = "COL"
+
+[node name="CBEAButton" type="Button" parent="." unique_id=1140522012]
+layout_mode = 0
+offset_left = 1009.0
+offset_top = 298.0
+offset_right = 1107.0
+offset_bottom = 358.0
+text = "CBEA"
+
+[node name="COMButton" type="Button" parent="." unique_id=1905865005]
+layout_mode = 0
+offset_left = 1031.0
+offset_top = 38.0
+offset_right = 1129.0
+offset_bottom = 98.0
+text = "COM"
+
+[node name="CHSButton" type="Button" parent="." unique_id=342547844]
+layout_mode = 0
+offset_left = 930.0
+offset_top = 93.0
+offset_right = 1028.0
+offset_bottom = 153.0
+text = "CHS"
